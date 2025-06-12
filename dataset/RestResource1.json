@@ -6,10 +6,22 @@
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "RestResource",
+		"type": "DelimitedText",
 		"typeProperties": {
-			"relativeUrl": "Ramkannan1981/RamK_Test_Shell/main/"
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Ramkannan1981/RamK_Test_Shell/main/"
+			},
+			"columnDelimiter": "\u0000",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "fileContent",
+				"type": "String"
+			}
+		]
 	}
 }
