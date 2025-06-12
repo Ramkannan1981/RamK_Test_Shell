@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://github.com/Ramkannan1981/RamK_Test_Shell/blob/main/Test",
+			"url": "https://github.com/Ramkannan1981/RamK_Test_Shell/blob/main/Test.txt",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
