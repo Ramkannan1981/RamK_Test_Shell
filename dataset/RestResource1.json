@@ -2,12 +2,15 @@
 	"name": "RestResource1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "RestService1",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"quoteChar": "\"",
