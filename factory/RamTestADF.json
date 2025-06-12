@@ -1,0 +1,9 @@
+{
+	"name": "RamTestADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a0931962-1ecb-44e7-93fd-b47fb5b7a81a",
+		"tenantId": "d0d8a1e1-aed0-4790-888f-56ddf869e787"
+	}
+}
