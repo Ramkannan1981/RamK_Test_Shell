@@ -6,11 +6,24 @@
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "RestResource",
+		"type": "DelimitedText",
 		"typeProperties": {
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\"",
 			"relativeUrl": "Ramkannan1981/RamK_Test_Shell/main/",
 			"filename": "Test.txt"
 		},
-		"schema": []
-	}
+		"schema": [],
+		"columnDelimiter": "\u0000",
+		"escapeChar": "\\",
+		"firstRowAsHeader": false,
+		"quoteChar": "\""
+	},
+	"schema": [
+		{
+			"name": "fileContent",
+			"type": "String"
+		}
+	]
 }
