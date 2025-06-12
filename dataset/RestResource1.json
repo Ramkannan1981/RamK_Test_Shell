@@ -6,8 +6,11 @@
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "RestResource",
+		"type": "DelimitedText",
 		"typeProperties": {
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\"",
 			"relativeUrl": "Ramkannan1981/RamK_Test_Shell/main/"
 		},
 		"schema": []
