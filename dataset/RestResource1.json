@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://github.com/Ramkannan1981/RamK_Test_Shell/blob/main/"
+				"relativeUrl": "Ramkannan1981/RamK_Test_Shell/main/"
 			},
 			"columnDelimiter": "\u0000",
 			"escapeChar": "\\",
