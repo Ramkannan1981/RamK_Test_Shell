@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
@@ -16,7 +16,6 @@
 			"escapeChar": "\\",
 			"firstRowAsHeader": false,
 			"quoteChar": "\""
-		},
-		"schema": []
+		}
 	}
 }
