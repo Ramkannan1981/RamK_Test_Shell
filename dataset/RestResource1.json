@@ -7,6 +7,9 @@
 		},
 		"annotations": [],
 		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "Ramkannan1981/RamK_Test_Shell/main/"
+		},
 		"schema": []
 	}
 }
